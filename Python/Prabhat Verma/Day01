@@ -1,0 +1,10 @@
+Q1  Write a Python program that prompts the user to enter their name and then prints a greeting message in the format "Hello, {Your Name}!".
+Solution: 
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+Q2 Write a Python program that takes a sentence as input and prints the reverse of each word in the sentence. For example, if the input is "Hello World!", the output should be "olleH dlroW!".
+Solution: 
+String = input("Enter a sentence: ")
+words = String.split()
+for word in words:
+    print(word[::-1], end=" ")
